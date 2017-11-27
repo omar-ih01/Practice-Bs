@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="box">
+<h1>h1 bootstap heading (36px)</h1>
+<h2>h2 bootstap heading (30px)</h2>
+<h3>h3 bootstap heading (24px)</h3>
+<h4>h4 bootstap heading (18px)</h4>
+<h5>h5bootstap heading (14px)</h5>
+<h6>h6 bootstap heading (12px)</h6>
+</div><br>
+
+ <div class="box"><h1>Lighter, Secondary Text</h1>
+  <p>The small element is used to create a lighter, secondary text in any heading:</p>	
+
+<h1>h1 heading<small>secondary text</small></h1>
+<h2>h2 heading<small>secondary text</small></h2>
+<h3>h3 heading<small>secondary text</small></h3>
+<h4> h4 heading<small>secondary text</small></h4>
+<h5>h5 heading<small>secondary text</small></h5>
+<h6>h6 heading<small>secondary text</small></h6></div><br>
+
+<div class="box"><h1>Highlight Text/Mark</h1>
+<p>Use the mark elment to <mark>highlight</mark>text</p></div>
+
+<br>
+<div class="box"><h2>Abbrevialtions</h2>
+<p>the abbr element is used to mark up an abbreviation or acronym:</p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948</p><br>
+<h3>Blockquotes</h3>
+<p>The blockquote element is used to present content from another source:</p>
+
+<blockquote>
+	<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer>From WWF's website</footer>
+</blockquote><br>
+<p>To show the quote on the right use the class .blockquote-reverse:</p>
+  <blockquote class="blockquote-reverse">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer>From WWF's website</footer>
+  </blockquote></div>
+<br>
+<div class="box"><h1>Description Lists</h1>  
+<p>the dl element indicates a description list:</p>
+<dl>
+	<dt>Coffe</dt>
+	<dd>-black hot drink</dd>
+	<dt>Milk</dt>
+	<dd>white cold drink</dd>
+</dl></div>
+
+<br>
+<div class="box">
+<h3>Code Snippets</h3>
+<p>Inline snippets of code should be embedded in the code element:</p>
+<p>The following HTML elements:<code>span</code>,<code>section</code>, and <code>div</code> defines a section in a document.</div><br>
+<div class="box">
+	<h3>Keyboard Inputs</h3>
+	<p>To indicate input that is typically entered via the keyboard, use the kbd element:,</p>
+	<p>Use <kbd>ctrl + p</kbd> to open the print dialog box</p>
+</div><br>
+<div class="box">
+<h3>Multiple Code lines</h3>
+<p>For multiple lines of code, use the pre element:</p>
+<pre>
+	Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+
+</pre>
+</div><br>
+
+<div class="box">
+<h3>Contextual Colors and Backgrounds</h3>
+<p>Bootstrap also has some contextual classes that can be used to provide "meaning through colors".</p>
+
+<p>The classes for text colors are:<code>.text-muted</code>, <code>.text-primary</code>, <code>.text-success</code>, <code>.text-info</code>, <code>.text-warning</code>, and <code>.text-danger</code></p>
+<p class="text-muted">This text is muted</p>
+<p class="text-primary">Thsi text is important</p>
+<p class="text-success">This text indicates success</p>
+<p class="text-info">This text represents some information</p>
+<p class="text-warning">This text represents a warning</p>
+<p class="text-danger">Thsi text represents danger</p>
+<br>
+<h2>Contextual Backgrounds</h2>
+<p>Use the contextual background classes to provide "meaning through colors":</p>
+<p>The classes for background colors are:<code>.bg-primary</code>, <code>.bg-success</code>,<code> bg-info</code>, <code>bg-warning</code>, and <code>.bg-danger</code>:</p>
+<p class="bg-primary">This is important</p>
+<p class="bg-success">This indicates success</p>
+<p class="bg-info">This represents some information</p>
+<p class="bg-warning">This indicates warning </p>
+<p class="bg-danger">This indicates danger</p>
+
+</div><br>
+<hr>
+<h3>More Typography Classes</h3>
+<div class="box">
+<p>Use the .lead class to make a para "stand out":</p>
+<p class="lead">This para stands out.This para stands out.This para stands out.This para stands out.This para stands out.This para stands out.This para stands out</p>
+<p>This is a regular paragraph.</p>
+</div>
+<div class="box">
+	<h4>Indicates smaller text (set to 85% of the size of the parent)</h4>
+	<p>Use the .small class to make the text smaller</p>
+	<p class="small">This is Smaller para</p>
+	<p>This is a regular para</p>
+	</div>
+	<div class="box">
+	<p class="text-left">Left-aligned text</p>
+	<p class="text-right">Right-aligned text</p>
+	<p class="text-center">Center-aligned text</p>
+	<p class="text-justify">Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.</p>
+	<p class="text-nowrap">No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.</p>
+	<p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>
+	</div>
+
+<div class="box">
+	<p class="text-lowercase">Lower Cased text</p>
+	<p class="text-uppercase">Uppercase text</p>
+	<p class="text-capitalize">Capitalized text</p>
+</div>
+<div class="box">
+	<p> use .initialism class to Displays the text inside an abbr element in a slightly smaller font size</p>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948(normal abbr)</p>
+	<p>The <abbr title="World Health Organization" class="initialism">WHO</abbr>was founded in 1948.(slightly smaller abbr)</p>
+</div>
+
+<div class="box">
+	<p>Use .list-unstyled to Removes the default list-style and left margin on list items (works on both ul and ol). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)</p>
+	<ul class="list-unstyled">
+		<li>Covffee</li>
+		<li>Tea
+		<ul>
+			<li>black tea</li>
+			<li>Green tea</li>
+		</ul>
+		</li>
+		<li>Milk</li>
+
+	</ul>
+
+</div>
+
+<div class="box">
+	<p>The class .list-inline places all list items on a single line:</p>
+	<ul class="list-inline">
+		<li>Tea</li>
+		<li>Milk</li>
+		<li>water</li>
+	</ul>
+</div>
+
+<div class="box">
+	<p>Use the .dl-horizontal class line up the description list side by side whe the bowser window expands:</p>
+	<dl class="dl-horizontal">
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>White cold drink</dd>
+	</dl>
+	<p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of the description list.</p> 
+</div>
+
+<div class="box">
+	<p>For multiple lines of code, use the pre element:</p>
+	<pre>Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.</pre>
+
+  <p>If you add the .pre-scrollable class, the pre element gets a max-height of 350px and provides a y-axis scrollbar:</p>
+  <pre class="pre-scrollable">
+  	Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.
+  Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.
+  Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.
+  </pre>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
